@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Bank</title>
+    <link rel="icon" type="image/png" href="fav/fav2.png" sizes="16x16">
+
+    <style>
+        body {
+            background-image: url(media/BankBg4.png);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="bank.html">Bank</a>
+        <a href="shop.html">Shop</a>
+        <a href="goals.html">Goals</a>
+        <a href="about.html">About</a>
+
+        <div class="money-balance" id="spendings-balance">$100</div>
+        <div class="progress-container">
+            <label for="spending-progress">Spendings:</label>
+            <div class="progress-bar" id="spendings-bar">
+                <div class="progress-fill" id="spendings-fill"></div>
+            </div>
+        </div>
+
+        <div class="money-balance" id="savings-balance">$100</div>
+        <div class="progress-container">
+            <label for="savings-progress">Savings:</label>
+            <div class="progress-bar" id="savings-bar">
+                <div class="progress-fill" id="savings-fill"></div>
+            </div>
+        </div>
+    </div>
+
+    <br><br><h2 style="text-align: center; font-weight: bold; color: white">PIGGY BANK</h2>
+    <div class="bankButton" id="deposit">
+        <button onclick="depositMoney()">Deposit</button>
+    </div>
+
+    <div class="bankButton" id="withdraw">
+        <button onclick="withdrawMoney()">Withdraw</button>
+    </div>
+
+
+    <script src="script/script.js"></script>
+
+</body>
+
+</html>

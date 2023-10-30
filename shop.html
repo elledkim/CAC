@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Shop</title>
+    <link rel="icon" type="image/png" href="fav/fav2.png" sizes="16x16">
+
+    <style>
+        body {
+            background-color: #FAE5D2;
+        }
+    </style>
+
+</head>
+
+<body class="shopP">
+
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="bank.html">Bank</a>
+        <a href="shop.html">Shop</a>
+        <a href="goals.html">Goals</a>
+        <a href="about.html">About</a>
+
+        <div class="money-balance" id="spendings-balance">$100</div>
+        <div class="progress-container">
+            <label for="spending-progress">Spendings:</label>
+            <div class="progress-bar" id="spendings-bar">
+                <div class="progress-fill" id="spendings-fill"></div>
+            </div>
+        </div>
+
+        <div class="money-balance" id="savings-balance">$100</div>
+        <div class="progress-container">
+            <label for="savings-progress">Savings:</label>
+            <div class="progress-bar" id="savings-bar">
+                <div class="progress-fill" id="savings-fill"></div>
+            </div>
+        </div>
+    </div>
+
+    <br><h2 style="text-align: center; font-weight: bold;">Welcome to the Shop!</h2>
+
+    <h5 id="needsl">Needs</h4>
+    <h5 id="wantsl">Wants</h4>
+
+    <div class="wn-container">
+        <div class="wn-bar" id="wn-bar">
+            <div class="wn-fill" id="wn-fill"><div class="vl"></div></div>
+        </div>
+    </div>
+
+    <br><br>
+    <div class="shop">
+        <div class="itemW">
+            <img src="media/shop/toy1.png" alt="toy1">
+            <h3>Chew Toy</h3>
+            <p>Price: $10.00</p>
+            <button onclick="purchaseItemW(10)">Purchase</button>
+        </div>
+
+        <div class="itemN">
+            <img src="media/shop/dogfood.png" alt="food">
+            <h3>Food</h3>
+            <p>Price: $50.00</p>
+            <button onclick="purchaseItemN(50)">Purchase</button>
+        </div>
+
+        <div class="itemW">
+            <img src="media/shop/tennisball.png" alt="tennisball">
+            <h3>Tennis Ball</h3>
+            <p>Price: $15.00</p>
+            <button onclick="purchaseItemW(15)">Purchase</button>
+        </div>
+
+        <div class="itemN">
+            <img src="media/shop/dogbed.png" alt="bed">
+            <h3>Bed</h3>
+            <p>Price: $100.00</p>
+            <button onclick="purchaseItemN(100)">Purchase</button>
+        </div>
+
+        <div class="itemN">
+            <img src="media/shop/bowl.png" alt="bowl">
+            <h3>Bowl</h3>
+            <p>Price: $30.00</p>
+            <button onclick="purchaseItemN(30)" class="toggleButton">Purchase</button>
+        </div>
+
+        <div class="itemN">
+            <img src="media/shop/water.png" alt="water">
+            <h3>Water</h3>
+            <p>Price: $10.00</p>
+            <button onclick="purchaseItemN(10)">Purchase</button>
+        </div>
+
+        <div class="itemW">
+            <img src="media/shop/rug1.png" alt="rug1">
+            <h3>Flower Rug</h3>
+            <p>Price: $120.00</p>
+            <button onclick="purchaseItemW(200)">Purchase</button>
+        </div>
+
+        <div class="itemW">
+            <img src="media/shop/treats.png" alt="treats">
+            <h3>Treats</h3>
+            <p>Price: $25.00</p>
+            <button onclick="purchaseItemW(25)">Purchase</button>
+        </div>
+
+        <div class="itemN">
+            <img src="media/shop/emergency.png" alt="emergencykit">
+            <h3>Emergency Kit</h3>
+            <p>Price: $50.00</p>
+            <button onclick="purchaseItemN(50)">Purchase</button>
+        </div>
+
+        <div class="itemW">
+            <img src="media/shop/hat.png" alt="hat">
+            <h3>Hat</h3>
+            <p>Price: $40.00</p>
+            <button onclick="purchaseItemW(40)">Purchase</button>
+        </div>
+
+    </div>
+
+    <script src="script/script.js"></script>
+
+</body>
+
+</html>

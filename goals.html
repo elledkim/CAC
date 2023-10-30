@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Goals</title>
+    <link rel="icon" type="image/png" href="fav/fav2.png" sizes="16x16">
+
+    <style>
+        body {
+            background-color: #FAE5D2;
+        }
+    </style>
+</head>
+
+<body class="goalP">
+
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="bank.html">Bank</a>
+        <a href="shop.html">Shop</a>
+        <a href="goals.html">Goals</a>
+        <a href="about.html">About</a>
+
+        <div class="money-balance" id="spendings-balance">$100</div>
+        <div class="progress-container">
+            <label for="spending-progress">Spendings:</label>
+            <div class="progress-bar" id="spendings-bar">
+                <div class="progress-fill" id="spendings-fill"></div>
+            </div>
+        </div>
+
+        <div class="money-balance" id="savings-balance">$100</div>
+        <div class="progress-container">
+            <label for="savings-progress">Savings:</label>
+            <div class="progress-bar" id="savings-bar">
+                <div class="progress-fill" id="savings-fill"></div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <br><h2 style="text-align: center; font-weight: bold;">Your goals:</h2>
+    </div>
+
+    <div class="goal-container">
+        <h6>Have $1000 in Savings</h6>
+        <div class="goal-bar">
+            <div class="goal-fill" id="goal1-fill"></div>
+        </div>
+    </div>
+
+    <div class="goal-container">
+        <h6>Make 10 purchases</h6>
+        <div class="goal-bar">
+            <div class="goal-fill" id="goal2-fill"></div>
+        </div>
+    </div>
+
+    <div class="goal-container">
+        <h6>Earn $30 from interest</h6>
+        <div class="goal-bar">
+            <div class="goal-fill" id="goal3-fill"></div>
+        </div>
+    </div>
+
+    <div class="goal-container">
+        <h6>Allocate 20% of your earnings to Savings 10 times</h6>
+        <div class="goal-bar">
+            <div class="goal-fill" id="goal4-fill"></div>
+        </div>
+    </div>
+
+    <div class="goal-container">
+        <h6>Make 5 deposits</h6>
+        <div class="goal-bar">
+            <div class="goal-fill" id="goal5-fill"></div>
+        </div>
+    </div>
+
+
+    <script src="script/script.js"></script>
+</body>
+
+</html>

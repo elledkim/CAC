@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Home</title>
+    <link rel="icon" type="image/png" href="fav/fav2.png" sizes="16x16">
+
+    <style>
+        body {
+            background-image: url(media/Background.png);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body class="indexP">
+    <div id="container">
+        <img src="media/Dog.png" alt="dog">
+    </div>
+
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="bank.html">Bank</a>
+        <a href="shop.html">Shop</a>
+        <a href="goals.html">Goals</a>
+        <a href="about.html">About</a>
+        
+        <div class="money-balance" id="spendings-balance">$100</div>
+        <div class="progress-container">
+            <label for="spending-progress">Spendings:</label>
+            <div class="progress-bar" id="spendings-bar">
+                <div class="progress-fill" id="spendings-fill"></div>
+            </div>
+        </div>
+
+        <div class="money-balance" id="savings-balance">$100</div>
+        <div class="progress-container">
+            <label for="savings-progress">Savings:</label>
+            <div class="progress-bar" id="savings-bar">
+                <div class="progress-fill" id="savings-fill"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span id="close-popup" class="close-popup" style="color:white">&times;</span>
+            <h2 style="color:white">Welcome back!</h2>
+            <p style="color:white">How many days has it been since you last logged on?</p>
+            <input type="number" id="daysInput" placeholder="Enter number of days" style="color:white">
+            <br><br>
+            <button id="calculateEarnings">Calculate Earnings</button>
+            <br><br>
+        </div>
+    </div>
+
+    <script src="script/script.js"></script>
+</body>
+
+</html>
