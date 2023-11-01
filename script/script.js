@@ -370,8 +370,8 @@ if (document.body.className.match("goalP")){
 
 
     goal1Fill.style.width = parseFloat(localStorage.getItem('savingsBalance'))/10 + "%";
-    goal2Fill.style.width = parseFloat(localStorage.getItem('purchaseCount')) * 10 + "%";
-    goal3Fill.style.width = parseFloat(localStorage.getItem('intSum')) * (10/3) + "%";
+    goal2Fill.style.width = parseFloat(localStorage.getItem('purchaseCount'))/3 * 10 + "%";
+    goal3Fill.style.width = parseFloat(localStorage.getItem('intSum'))/10 + "%";
     goal4Fill.style.width = parseFloat(localStorage.getItem('rightSplit')) * 10 + "%";
     goal5Fill.style.width = parseFloat(localStorage.getItem('depCount')) * 20 + "%";
 }

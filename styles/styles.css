@@ -206,19 +206,24 @@ h2 {
     width: 1000px;
     height: 50px;
     background-color: #ffffff;
-    border-radius: 10px
+    border-radius: 30px
 }
 
 .goal-fill {
     height: 100%;
     width: 50%;
     background-color: #6A7CBD;
-    border-radius: 10px
+    border-radius: 30px
 }
 
 h6 {
     color: #614728;
 }
+
+h3 {
+    color: #614728;
+}
+
 
 .bankButton {
     display: inline-block;
@@ -296,3 +301,8 @@ h5 {
     position: absolute;
     margin-left: 500px;
   }
+
+/* ABOUT */
+.about {
+    padding: 30 px;
+}
