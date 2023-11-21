@@ -405,16 +405,3 @@ function addItem(x) {
       }
  
 }
-
-// function checkAndAddImageOnLoad() {
-//     // Set the source of your image
-//     var imageSource = 'path_to_your_image.jpg';
-//     // Set the ID of your target div
-//     var targetDivId = 'targetDiv';
-  
-//     // Add image to div if not added before
-//     addImageToDiv(imageSource, targetDivId);
-//   }
-  
-//   // Call the function when the window loads
-//   window.onload = checkAndAddImageOnLoad;
