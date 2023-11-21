@@ -75,6 +75,13 @@ if (isNaN(localStorage.getItem('savingsBalance'))) {
     localStorage.setItem('savingsBalance', 50);
 }
 
+if(parseFloat(localStorage.getItem('balance'))>100) {
+    localStorage.setItem('balance', 50);
+}
+if(parseFloat(localStorage.getItem('savingsBalance'))>100) {
+    localStorage.setItem('savingsBalance', 50);
+}
+
 function updateAll() {
     updateBalance();
     updateSavings()
