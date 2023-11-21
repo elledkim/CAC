@@ -13,8 +13,12 @@ body {
 
 #containerD {
     position: absolute;
-    top: 38%;
-    left: 38%;
+    /* top: 38%;
+    left: 38%; */
+
+    margin-left: 38%;
+    margin-top: 20%;
+
 }
 
 .navbar {
