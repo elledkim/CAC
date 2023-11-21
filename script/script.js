@@ -75,10 +75,10 @@ if (isNaN(localStorage.getItem('savingsBalance'))) {
     localStorage.setItem('savingsBalance', 50);
 }
 
-if(parseFloat(localStorage.getItem('balance'))>100) {
+if(parseFloat(localStorage.getItem('balance'))>1000) {
     localStorage.setItem('balance', 50);
 }
-if(parseFloat(localStorage.getItem('savingsBalance'))>100) {
+if(parseFloat(localStorage.getItem('savingsBalance'))>1000) {
     localStorage.setItem('savingsBalance', 50);
 }
 
