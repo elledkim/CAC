@@ -7,8 +7,16 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    margin-top: -100px;
-    margin-left: -180px;
+    /* margin-top: -100px;
+    margin-left: -180px; */
+}
+
+#containerD {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -7%;
+    margin-left: -12%;
 }
 
 .navbar {
@@ -21,7 +29,7 @@ body {
     font-size: 16px;
     color: white;
     text-align: center;
-    padding: 34px 20px;
+    padding: 3% 3%;
     text-decoration: none;
 }
 
@@ -182,6 +190,9 @@ h2 {
     text-align: center;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
     position: relative;
+    margin: 10%;
+    margin-right: 30%;
+    margin-left: 30%;
 }
 
 .close-popup {
